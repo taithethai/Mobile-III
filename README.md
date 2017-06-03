@@ -8,6 +8,8 @@ last project.
 
 This is the API documentation:
 
+URL: https://mobile-server-ii.herokuapp.com/
+
 [POST] `/users` - Requires an `email` and `password` property on the body.
 Returns a JWT and the user's info. Creates a new user in the database.
 [POST] `/signin` - Requires an `email` and `password` property on the body.
